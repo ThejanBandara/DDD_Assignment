@@ -16,3 +16,5 @@ G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\D
 G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.genruntimeconfig.cache
 G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\ref\DDD_Assignment.dll
 G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Register.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Dashboard_User.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Login_Employee.resources

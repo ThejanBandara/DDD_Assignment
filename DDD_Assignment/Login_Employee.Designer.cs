@@ -42,7 +42,7 @@
             // 
             button1.Cursor = Cursors.Hand;
             button1.Font = new Font("Poppins", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(60, 216);
+            button1.Location = new Point(66, 221);
             button1.Name = "button1";
             button1.Size = new Size(159, 36);
             button1.TabIndex = 28;
