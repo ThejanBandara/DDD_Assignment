@@ -11,5 +11,12 @@ namespace DDD_Assignment
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+           Form1 form = new Form1();
+            form.Show();
+            this.Hide();
+        }
     }
 }

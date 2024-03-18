@@ -30,5 +30,36 @@ namespace DDD_Assignment
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Register reg = new Register();
+            reg.Show();
+            this.Hide();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Login_Employee login_Emp = new Login_Employee();
+            login_Emp.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Dashboard_User dash = new Dashboard_User();
+            dash.Show();
+            this.Hide();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
