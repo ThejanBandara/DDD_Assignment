@@ -38,6 +38,7 @@
             linkLabel2 = new LinkLabel();
             label4 = new Label();
             button1 = new Button();
+            linkLabel3 = new LinkLabel();
             SuspendLayout();
             // 
             // label1
@@ -92,7 +93,7 @@
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(189, 280);
+            linkLabel1.Location = new Point(189, 318);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(49, 15);
             linkLabel1.TabIndex = 17;
@@ -102,7 +103,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(61, 280);
+            label8.Location = new Point(61, 318);
             label8.Name = "label8";
             label8.Size = new Size(131, 15);
             label8.TabIndex = 16;
@@ -111,7 +112,7 @@
             // linkLabel2
             // 
             linkLabel2.AutoSize = true;
-            linkLabel2.Location = new Point(122, 302);
+            linkLabel2.Location = new Point(122, 340);
             linkLabel2.Name = "linkLabel2";
             linkLabel2.Size = new Size(125, 15);
             linkLabel2.TabIndex = 19;
@@ -121,7 +122,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(57, 302);
+            label4.Location = new Point(57, 340);
             label4.Name = "label4";
             label4.Size = new Size(66, 15);
             label4.TabIndex = 18;
@@ -138,11 +139,22 @@
             button1.Text = "Log in";
             button1.UseVisualStyleBackColor = false;
             // 
+            // linkLabel3
+            // 
+            linkLabel3.AutoSize = true;
+            linkLabel3.Location = new Point(101, 287);
+            linkLabel3.Name = "linkLabel3";
+            linkLabel3.Size = new Size(100, 15);
+            linkLabel3.TabIndex = 21;
+            linkLabel3.TabStop = true;
+            linkLabel3.Text = "Forgot password?";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(314, 328);
+            ClientSize = new Size(314, 360);
+            Controls.Add(linkLabel3);
             Controls.Add(button1);
             Controls.Add(linkLabel2);
             Controls.Add(label4);
@@ -171,5 +183,6 @@
         private LinkLabel linkLabel2;
         private Label label4;
         private Button button1;
+        private LinkLabel linkLabel3;
     }
 }

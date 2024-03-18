@@ -46,15 +46,13 @@
             linkLabel1 = new LinkLabel();
             label9 = new Label();
             textBox7 = new TextBox();
-            label10 = new Label();
-            textBox8 = new TextBox();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Poppins Medium", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(73, 9);
+            label1.Location = new Point(214, 17);
             label1.Name = "label1";
             label1.Size = new Size(179, 62);
             label1.TabIndex = 0;
@@ -172,7 +170,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(72, 646);
+            label8.Location = new Point(215, 380);
             label8.Name = "label8";
             label8.Size = new Size(142, 15);
             label8.TabIndex = 14;
@@ -182,7 +180,7 @@
             // 
             button1.Cursor = Cursors.Hand;
             button1.Font = new Font("Poppins", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(91, 600);
+            button1.Location = new Point(234, 331);
             button1.Name = "button1";
             button1.Size = new Size(159, 36);
             button1.TabIndex = 6;
@@ -193,7 +191,7 @@
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(220, 646);
+            linkLabel1.Location = new Point(363, 380);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(40, 15);
             linkLabel1.TabIndex = 15;
@@ -218,31 +216,11 @@
             textBox7.Size = new Size(253, 23);
             textBox7.TabIndex = 16;
             // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.BackColor = Color.Transparent;
-            label10.Font = new Font("Poppins", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label10.Location = new Point(333, 317);
-            label10.Name = "label10";
-            label10.Size = new Size(118, 22);
-            label10.TabIndex = 19;
-            label10.Text = "Confirm Password";
-            // 
-            // textBox8
-            // 
-            textBox8.Location = new Point(333, 342);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(253, 23);
-            textBox8.TabIndex = 18;
-            // 
             // Register
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(673, 678);
-            Controls.Add(label10);
-            Controls.Add(textBox8);
+            ClientSize = new Size(619, 412);
             Controls.Add(label9);
             Controls.Add(textBox7);
             Controls.Add(linkLabel1);
@@ -287,7 +265,5 @@
         private LinkLabel linkLabel1;
         private Label label9;
         private TextBox textBox7;
-        private Label label10;
-        private TextBox textBox8;
     }
 }
