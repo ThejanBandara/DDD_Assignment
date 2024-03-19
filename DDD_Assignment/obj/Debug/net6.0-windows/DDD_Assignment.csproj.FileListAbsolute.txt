@@ -35,3 +35,9 @@ G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\bin\D
 G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\bin\Debug\net6.0-windows\CircularProgressBar.dll
 G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\bin\Debug\net6.0-windows\WinFormAnimation.dll
 G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.csproj.CopyComplete
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Add_Rating.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Device_rating.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.My_Orders.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.My_Ratings.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Place_Order.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.User_Profile.resources

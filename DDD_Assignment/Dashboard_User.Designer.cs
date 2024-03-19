@@ -113,6 +113,7 @@
             button2.TabIndex = 1;
             button2.Text = "Rate a device";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -129,6 +130,7 @@
             button1.TabIndex = 0;
             button1.Text = "Place order";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // ItemList
             // 
@@ -176,6 +178,7 @@
             button7.TabIndex = 6;
             button7.Text = "Log Out";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // button5
             // 
@@ -212,6 +215,7 @@
             button4.TabIndex = 4;
             button4.Text = "My Ratings";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -229,6 +233,7 @@
             button3.TabIndex = 3;
             button3.Text = "My orders";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // label2
             // 
