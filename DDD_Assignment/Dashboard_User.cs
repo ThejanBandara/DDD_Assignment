@@ -128,8 +128,9 @@ namespace DDD_Assignment
         private void button6_Click(object sender, EventArgs e)
         {
             Device_rating device_Rating = new Device_rating();  
+            Hide();
+            device_Rating.FormClosed += (s, args) => Show();
             device_Rating.Show();
-            this.Close();
         }
 
         private void button7_Click(object sender, EventArgs e)
