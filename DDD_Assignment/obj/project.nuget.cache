@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GSWSqWyUgZOMXYd2fGpsT7NiohEMSxllVaqLt98rNnBcwJzs4oQ3OZAPVa/MuPzO9pPzhCf5o+WvhrAk+P4JNw==",
+  "dgSpecHash": "pk3pmQkcVHzjtBx0MhDeCMh/SX4tqZ9nUDWDmIGGvcYyGxxYxg6q/p+8QmemfX7kDTkoszMfdeOjesF368RGXw==",
   "success": true,
   "projectFilePath": "G:\\thejan\\sliit\\assignments\\HND L4\\Sem 1\\DDD\\DDD_Assignment\\DDD_Assignment\\DDD_Assignment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\fontawesome.sharp\\6.3.0\\fontawesome.sharp.6.3.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\winformanimation\\1.6.0.4\\winformanimation.1.6.0.4.nupkg.sha512"
   ],
   "logs": [

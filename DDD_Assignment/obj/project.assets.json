@@ -18,6 +18,18 @@
           }
         }
       },
+      "FontAwesome.Sharp/6.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/FontAwesome.Sharp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/FontAwesome.Sharp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
       "WinFormAnimation/1.6.0.4": {
         "type": "package",
         "compile": {
@@ -45,6 +57,21 @@
         "readme.txt"
       ]
     },
+    "FontAwesome.Sharp/6.3.0": {
+      "sha512": "3/Fb0N04yYK8An07oox5ISlUyNgsnWildHfoP69uqTEOsemQemRyciphMkXZOcdBupjUD+lVsRE3FqG41/dzPA==",
+      "type": "package",
+      "path": "fontawesome.sharp/6.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fontawesome.sharp.6.3.0.nupkg.sha512",
+        "fontawesome.sharp.nuspec",
+        "lib/net472/FontAwesome.Sharp.dll",
+        "lib/net48/FontAwesome.Sharp.dll",
+        "lib/net6.0-windows7.0/FontAwesome.Sharp.dll",
+        "lib/netcoreapp3.1/FontAwesome.Sharp.dll"
+      ]
+    },
     "WinFormAnimation/1.6.0.4": {
       "sha512": "YSic50luSCgFq+JejHBq5DKwxpNP1VH7uOyBXC+8v6dd+CuUYGlKSOL4EbwT1WeWJQvFBoDMqHnq7HsF95kxrw==",
       "type": "package",
@@ -62,7 +89,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "CircularProgressBar >= 2.8.0.16"
+      "CircularProgressBar >= 2.8.0.16",
+      "FontAwesome.Sharp >= 6.3.0"
     ]
   },
   "packageFolders": {
@@ -112,6 +140,10 @@
           "CircularProgressBar": {
             "target": "Package",
             "version": "[2.8.0.16, )"
+          },
+          "FontAwesome.Sharp": {
+            "target": "Package",
+            "version": "[6.3.0, )"
           }
         },
         "imports": [

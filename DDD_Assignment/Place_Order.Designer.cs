@@ -197,7 +197,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Poppins Medium", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(136, 9);
+            label1.Location = new Point(136, 12);
             label1.Name = "label1";
             label1.Size = new Size(152, 37);
             label1.TabIndex = 14;
