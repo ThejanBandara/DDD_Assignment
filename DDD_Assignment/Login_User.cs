@@ -40,7 +40,7 @@ namespace DDD_Assignment
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Login_Employee login_Emp = new Login_Employee();
+            SampleLogins login_Emp = new SampleLogins();
             login_Emp.Show();
             this.Hide();
         }

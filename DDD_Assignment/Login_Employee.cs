@@ -24,12 +24,41 @@ namespace DDD_Assignment
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string email = textBox1.Text;
+            string pwd = textBox2.Text;
 
+            if (email == null || pwd == null)
+            {
+                MessageBox.Show("Enter Correct Credentials", "Invalid Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                if (email == "emp@petercomms.com" && pwd == "1234")
+                {
+                    Dashboard_Emp employee = new Dashboard_Emp();
+                    employee.Show();
+                    this.Hide();
+                }
+                else if (email == "man@petercomms.com" && pwd == "1234")
+                {
+                    Dashbaord_Man manager = new Dashbaord_Man();
+                    manager.Show();
+                    this.Hide();
+                }
+                else if (email == "dir@petercomms.com" && pwd == "1234")
+                {
+                    MessageBox.Show("director");
+                }
+                else
+                {
+                    MessageBox.Show("invalid");
+                }
+            }
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form1 form = new Form1();   
+            Form1 form = new Form1();
             form.Show();
             this.Hide();
         }

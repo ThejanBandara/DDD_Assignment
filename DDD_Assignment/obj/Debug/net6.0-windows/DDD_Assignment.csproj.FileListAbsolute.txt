@@ -42,3 +42,7 @@ G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\D
 G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Place_Order.resources
 G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.User_Profile.resources
 G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.SampleLogins.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Dashbaord_Man.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Dashboard_Dir.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Dashboard_Emp.resources
