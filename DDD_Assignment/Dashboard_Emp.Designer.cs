@@ -32,8 +32,11 @@
             pictureBox2 = new PictureBox();
             label1 = new Label();
             panel2 = new Panel();
-            button7 = new Button();
             button5 = new Button();
+            button8 = new Button();
+            button6 = new Button();
+            label3 = new Label();
+            button7 = new Button();
             button1 = new Button();
             button2 = new Button();
             button4 = new Button();
@@ -81,8 +84,11 @@
             // panel2
             // 
             panel2.BackColor = Color.FromArgb(12, 14, 99);
-            panel2.Controls.Add(button7);
             panel2.Controls.Add(button5);
+            panel2.Controls.Add(button8);
+            panel2.Controls.Add(button6);
+            panel2.Controls.Add(label3);
+            panel2.Controls.Add(button7);
             panel2.Controls.Add(button1);
             panel2.Controls.Add(button2);
             panel2.Controls.Add(button4);
@@ -93,6 +99,68 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(164, 437);
             panel2.TabIndex = 3;
+            // 
+            // button5
+            // 
+            button5.FlatAppearance.BorderSize = 0;
+            button5.FlatAppearance.CheckedBackColor = Color.FromArgb(8, 9, 56);
+            button5.FlatAppearance.MouseDownBackColor = Color.FromArgb(8, 9, 56);
+            button5.FlatAppearance.MouseOverBackColor = Color.FromArgb(8, 9, 56);
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button5.ForeColor = Color.Red;
+            button5.Location = new Point(0, 401);
+            button5.Name = "button5";
+            button5.Size = new Size(164, 33);
+            button5.TabIndex = 10;
+            button5.Text = "Log Out";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
+            // button8
+            // 
+            button8.FlatAppearance.BorderSize = 0;
+            button8.FlatAppearance.CheckedBackColor = Color.FromArgb(8, 9, 56);
+            button8.FlatAppearance.MouseDownBackColor = Color.FromArgb(8, 9, 56);
+            button8.FlatAppearance.MouseOverBackColor = Color.FromArgb(8, 9, 56);
+            button8.FlatStyle = FlatStyle.Flat;
+            button8.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button8.ForeColor = Color.White;
+            button8.Location = new Point(0, 275);
+            button8.Name = "button8";
+            button8.Size = new Size(164, 33);
+            button8.TabIndex = 9;
+            button8.Text = "View Orders";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
+            // button6
+            // 
+            button6.FlatAppearance.BorderSize = 0;
+            button6.FlatAppearance.CheckedBackColor = Color.FromArgb(8, 9, 56);
+            button6.FlatAppearance.MouseDownBackColor = Color.FromArgb(8, 9, 56);
+            button6.FlatAppearance.MouseOverBackColor = Color.FromArgb(8, 9, 56);
+            button6.FlatStyle = FlatStyle.Flat;
+            button6.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button6.ForeColor = Color.White;
+            button6.Location = new Point(3, 158);
+            button6.Name = "button6";
+            button6.Size = new Size(164, 33);
+            button6.TabIndex = 8;
+            button6.Text = "Register User";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(52, 129);
+            label3.Name = "label3";
+            label3.Size = new Size(56, 13);
+            label3.TabIndex = 7;
+            label3.Text = "Employee";
             // 
             // button7
             // 
@@ -111,24 +179,6 @@
             button7.Text = "Log Out";
             button7.UseVisualStyleBackColor = true;
             // 
-            // button5
-            // 
-            button5.Anchor = AnchorStyles.Left | AnchorStyles.Right;
-            button5.BackColor = Color.FromArgb(12, 14, 99);
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatAppearance.MouseDownBackColor = Color.FromArgb(8, 9, 56);
-            button5.FlatAppearance.MouseOverBackColor = Color.FromArgb(8, 9, 56);
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Poppins", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.ForeColor = Color.White;
-            button5.Location = new Point(1, 326);
-            button5.Margin = new Padding(0);
-            button5.Name = "button5";
-            button5.Size = new Size(128, 33);
-            button5.TabIndex = 5;
-            button5.Text = "Profile";
-            button5.UseVisualStyleBackColor = false;
-            // 
             // button1
             // 
             button1.FlatAppearance.BorderSize = 0;
@@ -144,6 +194,7 @@
             button1.TabIndex = 0;
             button1.Text = "Place order";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -158,8 +209,9 @@
             button2.Name = "button2";
             button2.Size = new Size(164, 33);
             button2.TabIndex = 1;
-            button2.Text = "Rate a device";
+            button2.Text = "View Stocks";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button4
             // 
@@ -238,7 +290,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "Dashboard_Emp";
-            Text = "Dashboard_Emp";
+            Text = "Employee Dashboard";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -256,7 +308,6 @@
         private Label label1;
         private Panel panel2;
         private Button button7;
-        private Button button5;
         private Button button1;
         private Button button2;
         private Button button4;
@@ -264,5 +315,9 @@
         private Label label2;
         private PictureBox pictureBox1;
         private Panel ItemList;
+        private Label label3;
+        private Button button6;
+        private Button button5;
+        private Button button8;
     }
 }

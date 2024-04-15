@@ -29,7 +29,7 @@ namespace DDD_Assignment
 
             if (email == null || pwd == null)
             {
-                MessageBox.Show("Enter Correct Credentials", "Invalid Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Please Enter an Email and a password", "empty Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -47,11 +47,13 @@ namespace DDD_Assignment
                 }
                 else if (email == "dir@petercomms.com" && pwd == "1234")
                 {
-                    MessageBox.Show("director");
+                    Dashboard_Dir director = new Dashboard_Dir();
+                    director.Show();
+                    this.Hide();
                 }
                 else
                 {
-                    MessageBox.Show("invalid");
+                    MessageBox.Show("invalid Credentials! Please try Again", "Invalid Information",MessageBoxButtons.OK,MessageBoxIcon.Error);
                 }
             }
         }

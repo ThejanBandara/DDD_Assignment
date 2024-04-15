@@ -114,5 +114,52 @@ namespace DDD_Assignment
                 }
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Register RegisterUser = new Register();
+            Hide();
+            RegisterUser.FormClosed += (s, args) => Show();
+            RegisterUser.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show("Do you really want to log out?", "Confirm logout", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);
+            if (dialog == DialogResult.Yes)
+            {
+                Form1 form = new Form1();
+                form.Show();
+                this.Close();
+            }
+            else if (dialog == DialogResult.No)
+            {
+
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Place_Order place_Order = new Place_Order();
+            Hide();
+            place_Order.FormClosed += (s, args) => Show();
+            place_Order.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Stocks stocks = new Stocks();
+            Hide();
+            stocks.FormClosed += (s, args) => Show();
+            stocks.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            All_orders orders = new All_orders();
+            Hide();
+            orders.FormClosed += (s, args) => Show();
+            orders.Show();
+        }
     }
 }

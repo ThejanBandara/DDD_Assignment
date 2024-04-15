@@ -4,6 +4,9 @@
     <Compile Update="Add_Rating.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="All orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Dashbaord_Man.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -38,6 +41,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="SampleLogins.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Stocks.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="User_Profile.cs">
