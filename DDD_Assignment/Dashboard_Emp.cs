@@ -161,5 +161,13 @@ namespace DDD_Assignment
             orders.FormClosed += (s, args) => Show();
             orders.Show();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Device_rating ratings = new Device_rating();
+            Hide();
+            ratings.FormClosed += (s, args) => Show();
+            ratings.Show();
+        }
     }
 }

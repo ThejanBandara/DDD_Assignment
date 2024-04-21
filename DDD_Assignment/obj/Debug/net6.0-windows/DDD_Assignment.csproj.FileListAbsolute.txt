@@ -48,3 +48,6 @@ G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\D
 G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Dashboard_Emp.resources
 G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.All_orders.resources
 G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Stocks.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Add_New_Product.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.Employee_Details.resources
+G:\thejan\sliit\assignments\HND L4\Sem 1\DDD\DDD_Assignment\DDD_Assignment\obj\Debug\net6.0-windows\DDD_Assignment.add_new_employee.resources

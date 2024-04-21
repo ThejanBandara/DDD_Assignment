@@ -114,5 +114,53 @@ namespace DDD_Assignment
                 }
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Device_rating ratings = new Device_rating();
+            Hide();
+            ratings.FormClosed += (s, args) => Show();
+            ratings.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Stocks stock = new Stocks();
+            Hide();
+            stock.FormClosed += (s, args) => Show();
+            stock.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            All_orders orders = new All_orders();
+            Hide();
+            orders.FormClosed += (s, args) => Show();
+            orders.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Add_New_Product add = new Add_New_Product();
+            Hide();
+            add.FormClosed += (s, args) => Show();
+            add.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Employee_Details emp = new Employee_Details();
+            Hide();
+            emp.FormClosed += (s, args) => Show();
+            emp.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            add_new_employee emp = new add_new_employee();
+            Hide();
+            emp.FormClosed += (s, args) => Show();
+            emp.Show();
+        }
     }
 }

@@ -44,6 +44,7 @@
             label2 = new Label();
             pictureBox1 = new PictureBox();
             ItemList = new Panel();
+            button9 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel2.SuspendLayout();
@@ -53,6 +54,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(8, 9, 56);
+            panel1.Controls.Add(button9);
             panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(label1);
             panel1.Location = new Point(-4, -1);
@@ -281,6 +283,24 @@
             ItemList.Size = new Size(660, 418);
             ItemList.TabIndex = 4;
             // 
+            // button9
+            // 
+            button9.Anchor = AnchorStyles.Left | AnchorStyles.Right;
+            button9.BackColor = Color.FromArgb(8, 9, 56);
+            button9.FlatAppearance.BorderSize = 0;
+            button9.FlatAppearance.MouseDownBackColor = Color.FromArgb(12, 14, 99);
+            button9.FlatAppearance.MouseOverBackColor = Color.FromArgb(12, 14, 99);
+            button9.FlatStyle = FlatStyle.Flat;
+            button9.Font = new Font("Poppins", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            button9.ForeColor = Color.White;
+            button9.Location = new Point(682, 3);
+            button9.Name = "button9";
+            button9.Size = new Size(153, 49);
+            button9.TabIndex = 11;
+            button9.Text = "Customer Feedbacks";
+            button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
+            // 
             // Dashboard_Emp
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -319,5 +339,6 @@
         private Button button6;
         private Button button5;
         private Button button8;
+        private Button button9;
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace DDD_Assignment
 {
-    partial class All_orders
+    partial class Employee_Details
     {
         /// <summary>
         /// Required designer variable.
@@ -29,16 +29,11 @@
         private void InitializeComponent()
         {
             FontAwesome.Sharp.IconPictureBox iconPictureBox1;
+            label1 = new Label();
+            comboBox1 = new ComboBox();
             textBox1 = new TextBox();
             label2 = new Label();
-            label7 = new Label();
-            label6 = new Label();
-            label5 = new Label();
-            label4 = new Label();
-            label3 = new Label();
-            label1 = new Label();
-            comboBox2 = new ComboBox();
-            comboBox1 = new ComboBox();
+            label48 = new Label();
             panel1 = new Panel();
             panel10 = new Panel();
             label67 = new Label();
@@ -128,7 +123,15 @@
             label11 = new Label();
             label9 = new Label();
             label10 = new Label();
-            label48 = new Label();
+            label7 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label62 = new Label();
+            label66 = new Label();
+            label69 = new Label();
+            label70 = new Label();
             iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
             ((System.ComponentModel.ISupportInitialize)iconPictureBox1).BeginInit();
             panel1.SuspendLayout();
@@ -144,6 +147,25 @@
             panel2.SuspendLayout();
             SuspendLayout();
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(21, 58);
+            label1.Name = "label1";
+            label1.Size = new Size(86, 19);
+            label1.TabIndex = 27;
+            label1.Text = "Shop Location";
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(21, 77);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(242, 23);
+            comboBox1.TabIndex = 26;
+            // 
             // iconPictureBox1
             // 
             iconPictureBox1.BackColor = Color.FromArgb(8, 9, 54);
@@ -154,7 +176,7 @@
             iconPictureBox1.Location = new Point(549, 22);
             iconPictureBox1.Name = "iconPictureBox1";
             iconPictureBox1.Size = new Size(20, 23);
-            iconPictureBox1.TabIndex = 13;
+            iconPictureBox1.TabIndex = 25;
             iconPictureBox1.TabStop = false;
             // 
             // textBox1
@@ -162,7 +184,7 @@
             textBox1.Location = new Point(570, 21);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(212, 23);
-            textBox1.TabIndex = 12;
+            textBox1.TabIndex = 24;
             textBox1.Text = "Search";
             // 
             // label2
@@ -174,90 +196,19 @@
             label2.Location = new Point(12, 9);
             label2.Name = "label2";
             label2.Size = new Size(160, 48);
-            label2.TabIndex = 11;
+            label2.TabIndex = 23;
             label2.Text = "All Orders";
             // 
-            // label7
+            // label48
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.ForeColor = Color.White;
-            label7.Location = new Point(481, 116);
-            label7.Name = "label7";
-            label7.Size = new Size(43, 19);
-            label7.TabIndex = 27;
-            label7.Text = "Status";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(363, 116);
-            label6.Name = "label6";
-            label6.Size = new Size(52, 19);
-            label6.TabIndex = 26;
-            label6.Text = "Amount";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.ForeColor = Color.White;
-            label5.Location = new Point(230, 116);
-            label5.Name = "label5";
-            label5.Size = new Size(86, 19);
-            label5.TabIndex = 25;
-            label5.Text = "Shop Location";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(36, 116);
-            label4.Name = "label4";
-            label4.Size = new Size(54, 19);
-            label4.TabIndex = 24;
-            label4.Text = "Order ID";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(551, 58);
-            label3.Name = "label3";
-            label3.Size = new Size(77, 19);
-            label3.TabIndex = 23;
-            label3.Text = "Order Status";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(21, 58);
-            label1.Name = "label1";
-            label1.Size = new Size(86, 19);
-            label1.TabIndex = 22;
-            label1.Text = "Shop Location";
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(551, 77);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(229, 23);
-            comboBox2.TabIndex = 21;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(21, 77);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(242, 23);
-            comboBox1.TabIndex = 20;
+            label48.AutoSize = true;
+            label48.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label48.ForeColor = Color.White;
+            label48.Location = new Point(132, -57);
+            label48.Name = "label48";
+            label48.Size = new Size(47, 19);
+            label48.TabIndex = 35;
+            label48.Text = "User ID";
             // 
             // panel1
             // 
@@ -273,10 +224,10 @@
             panel1.Controls.Add(panel5);
             panel1.Controls.Add(panel9);
             panel1.Controls.Add(panel2);
-            panel1.Location = new Point(12, 138);
+            panel1.Location = new Point(4, 156);
             panel1.Name = "panel1";
             panel1.Size = new Size(785, 543);
-            panel1.TabIndex = 28;
+            panel1.TabIndex = 34;
             // 
             // panel10
             // 
@@ -1334,38 +1285,129 @@
             label10.TabIndex = 21;
             label10.Text = "Location 1";
             // 
-            // label48
+            // label7
             // 
-            label48.AutoSize = true;
-            label48.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label48.ForeColor = Color.White;
-            label48.Location = new Point(136, 116);
-            label48.Name = "label48";
-            label48.Size = new Size(47, 19);
-            label48.TabIndex = 29;
-            label48.Text = "User ID";
+            label7.AutoSize = true;
+            label7.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.ForeColor = Color.White;
+            label7.Location = new Point(477, -57);
+            label7.Name = "label7";
+            label7.Size = new Size(43, 19);
+            label7.TabIndex = 33;
+            label7.Text = "Status";
             // 
-            // All_orders
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = Color.White;
+            label6.Location = new Point(359, -57);
+            label6.Name = "label6";
+            label6.Size = new Size(52, 19);
+            label6.TabIndex = 32;
+            label6.Text = "Amount";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.ForeColor = Color.White;
+            label5.Location = new Point(226, -57);
+            label5.Name = "label5";
+            label5.Size = new Size(86, 19);
+            label5.TabIndex = 31;
+            label5.Text = "Shop Location";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(32, -57);
+            label4.Name = "label4";
+            label4.Size = new Size(54, 19);
+            label4.TabIndex = 30;
+            label4.Text = "Order ID";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(121, 134);
+            label3.Name = "label3";
+            label3.Size = new Size(47, 19);
+            label3.TabIndex = 40;
+            label3.Text = "User ID";
+            // 
+            // label62
+            // 
+            label62.AutoSize = true;
+            label62.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label62.ForeColor = Color.White;
+            label62.Location = new Point(466, 134);
+            label62.Name = "label62";
+            label62.Size = new Size(43, 19);
+            label62.TabIndex = 39;
+            label62.Text = "Status";
+            // 
+            // label66
+            // 
+            label66.AutoSize = true;
+            label66.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label66.ForeColor = Color.White;
+            label66.Location = new Point(348, 134);
+            label66.Name = "label66";
+            label66.Size = new Size(52, 19);
+            label66.TabIndex = 38;
+            label66.Text = "Amount";
+            // 
+            // label69
+            // 
+            label69.AutoSize = true;
+            label69.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label69.ForeColor = Color.White;
+            label69.Location = new Point(215, 134);
+            label69.Name = "label69";
+            label69.Size = new Size(86, 19);
+            label69.TabIndex = 37;
+            label69.Text = "Shop Location";
+            // 
+            // label70
+            // 
+            label70.AutoSize = true;
+            label70.Font = new Font("Poppins", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label70.ForeColor = Color.White;
+            label70.Location = new Point(21, 134);
+            label70.Name = "label70";
+            label70.Size = new Size(47, 19);
+            label70.TabIndex = 36;
+            label70.Text = "Emp ID";
+            // 
+            // Employee_Details
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(8, 9, 56);
-            ClientSize = new Size(800, 749);
+            ClientSize = new Size(800, 622);
+            Controls.Add(label3);
+            Controls.Add(label62);
+            Controls.Add(label66);
+            Controls.Add(label69);
+            Controls.Add(label70);
             Controls.Add(label48);
             Controls.Add(panel1);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
-            Controls.Add(label3);
             Controls.Add(label1);
-            Controls.Add(comboBox2);
             Controls.Add(comboBox1);
             Controls.Add(iconPictureBox1);
             Controls.Add(textBox1);
             Controls.Add(label2);
-            Name = "All_orders";
-            Text = "All_orders";
+            Name = "Employee_Details";
+            Text = "Employee_Details";
             ((System.ComponentModel.ISupportInitialize)iconPictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel10.ResumeLayout(false);
@@ -1394,18 +1436,15 @@
 
         #endregion
 
+        private Label label1;
+        private ComboBox comboBox1;
         private TextBox textBox1;
         private Label label2;
-        private Label label7;
-        private Label label6;
-        private Label label5;
-        private Label label4;
-        private Label label3;
-        private Label label1;
-        private ComboBox comboBox2;
-        private ComboBox comboBox1;
+        private Label label48;
         private Panel panel1;
         private Panel panel10;
+        private Label label67;
+        private Label label68;
         private Button button17;
         private Button button18;
         private Label label40;
@@ -1413,6 +1452,8 @@
         private Label label42;
         private Label label43;
         private Panel panel6;
+        private Label label63;
+        private Label label64;
         private Button button9;
         private Button button10;
         private Label label24;
@@ -1420,6 +1461,7 @@
         private Label label26;
         private Label label27;
         private Panel panel11;
+        private Label label65;
         private Button button19;
         private Button button20;
         private Label label44;
@@ -1427,6 +1469,8 @@
         private Label label46;
         private Label label47;
         private Panel panel4;
+        private Label label55;
+        private Label label56;
         private Button button5;
         private Button button6;
         private Label label16;
@@ -1434,6 +1478,8 @@
         private Label label18;
         private Label label19;
         private Panel panel7;
+        private Label label59;
+        private Label label60;
         private Button button11;
         private Button button12;
         private Label label28;
@@ -1441,6 +1487,8 @@
         private Label label30;
         private Label label31;
         private Panel panel3;
+        private Label label51;
+        private Label label52;
         private Button button3;
         private Button button4;
         private Label label12;
@@ -1448,6 +1496,7 @@
         private Label label14;
         private Label label15;
         private Panel panel8;
+        private Label label61;
         private Button button13;
         private Button button14;
         private Label label32;
@@ -1455,6 +1504,8 @@
         private Label label34;
         private Label label35;
         private Panel panel5;
+        private Label label53;
+        private Label label54;
         private Button button7;
         private Button button8;
         private Label label20;
@@ -1462,6 +1513,8 @@
         private Label label22;
         private Label label23;
         private Panel panel9;
+        private Label label57;
+        private Label label58;
         private Button button15;
         private Button button16;
         private Label label36;
@@ -1469,30 +1522,22 @@
         private Label label38;
         private Label label39;
         private Panel panel2;
+        private Label label49;
+        private Label label50;
         private Button button2;
         private Button button1;
         private Label label8;
         private Label label11;
         private Label label9;
         private Label label10;
-        private Label label48;
-        private Label label67;
-        private Label label68;
-        private Label label63;
-        private Label label64;
-        private Label label65;
-        private Label label55;
-        private Label label56;
-        private Label label59;
-        private Label label60;
-        private Label label51;
-        private Label label52;
-        private Label label61;
-        private Label label53;
-        private Label label54;
-        private Label label57;
-        private Label label58;
-        private Label label49;
-        private Label label50;
+        private Label label7;
+        private Label label6;
+        private Label label5;
+        private Label label4;
+        private Label label3;
+        private Label label62;
+        private Label label66;
+        private Label label69;
+        private Label label70;
     }
 }
